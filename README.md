@@ -102,6 +102,8 @@ Computer Configuration → Policies → Windows Settings → Security Settings �
 
 3. Set All Removable Storage classes: Deny all access → Enabled.
 
+4. Repeat these steps under "User Configuration" also in the Group Policy Editor.
+
 <details>
   <summary>Click to view Steps Results✅</summary>
 
@@ -130,18 +132,18 @@ Enable Desktop Wallpaper.
   <p align="center"><strong>HR Department wallpaper Settings.</strong></p>
 
   <p align="center">
-    <img src="https://i.imgur.com/zmaqntX.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+    <img src="https://i.imgur.com/w6Dr1ae.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
   </p>
 
   <p align="center"><strong>IT Department wallpaper Settings.</strong></p>
 
   <p align="center">
-    <img src="https://i.imgur.com/CIFRuHl.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+    <img src="https://i.imgur.com/Zyub5M3.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
   </p>
     <p align="center"><strong>Sales Department wallpaper Settings.</strong></p>
 
   <p align="center">
-    <img src="https://i.imgur.com/HfotgEZ.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+    <img src="https://i.imgur.com/Pwdu3Jz.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
   </p>
 </details>
 
