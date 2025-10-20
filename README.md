@@ -92,3 +92,23 @@ Computer Configuration → Policies → Windows Settings → Security Settings �
 </details>
 
  
+---
+
+### 🔹Step 3 – Disable USB Storage
+
+ 1. Create a new GPO named Disable USB Storage.
+
+2. Edit → ``` Computer Configuration → Policies → Administrative Templates → System → Removable Storage Access```
+
+3. Set All Removable Storage classes: Deny all access → Enabled.
+
+<details>
+  <summary>Click to view Steps Results✅</summary>
+
+  <p align="center"><strong>USB access policy screen.</strong></p>
+
+  <p align="center">
+    <img src="https://i.imgur.com/k2kPkgv.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
+
+</details>
