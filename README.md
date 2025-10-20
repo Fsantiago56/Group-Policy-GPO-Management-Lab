@@ -55,8 +55,40 @@ You’ll create and apply GPOs to:
 3. Expand your domain company.local.
 
   <details><summary>Click to view Steps Results✅</summary>
- <p align="center"> 1️⃣ Group Policy Management Console open with your domain expanded.<p>
+ <p align="center">  Group Policy Management Console open with your domain expanded.<p>
 <p align="center"><img src="https://i.imgur.com/oW34dlF_d.png?maxwidth=520&shape=thumb&fidelity=high" height="60%" width="60%" alt="SSH Setup"/><p>
   <p>
  </details>
+ 
+---
+
+### 🔹Step 2 – Create a Password Complexity GPO
+
+1. Right-click your domain → Create a GPO in this domain, and Link it here...
+
+2. Name it: ``` Enforce Password Policy.```
+
+3. Edit the GPO → Navigate to:
+```
+Computer Configuration → Policies → Windows Settings → Security Settings → Account Policies → Password Policy
+```
+
+4. Enable:
+
+- Minimum password length: 8
+- Password must meet complexity requirements: Enabled
+- Maximum password age: 60 days
+  
+
+<details>
+  <summary>Click to view Steps Results✅</summary>
+
+  <p align="center"><strong>Password Policy settings</strong></p>
+
+  <p align="center">
+    <img src="https://i.imgur.com/VQK9zWg.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
+
+</details>
+
  
