@@ -112,3 +112,60 @@ Computer Configuration → Policies → Windows Settings → Security Settings �
   </p>
 
 </details>
+
+---
+
+### 🔹Step 4 – Department Wallpapers
+
+1. For each OU (IT, HR, Sales), create a separate GPO (e.g., IT Wallpaper, HR Wallpaper, Sales Wallpaper).
+
+2. Edit each → ``` User Configuration → Policies → Administrative Templates → Desktop → Desktop → Desktop Wallpaper```
+Enable Desktop Wallpaper.
+
+4. Point to unique wallpaper paths (ex: \\DC01\shared\wallpapers\it.jpg).
+
+  <details>
+  <summary>Click to view Steps Results✅</summary>
+
+  <p align="center"><strong>HR Department wallpaper Settings.</strong></p>
+
+  <p align="center">
+    <img src="https://i.imgur.com/zmaqntX.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
+
+  <p align="center"><strong>IT Department wallpaper Settings.</strong></p>
+
+  <p align="center">
+    <img src="https://i.imgur.com/CIFRuHl.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
+    <p align="center"><strong>Sales Department wallpaper Settings.</strong></p>
+
+  <p align="center">
+    <img src="https://i.imgur.com/HfotgEZ.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
+</details>
+
+---
+
+### 🔹Step 5 – Apply & Test
+
+On Client01 (domain-joined):
+
+```bash
+gpupdate /force
+gpresult /r
+```
+
+✅ Confirm:
+- Password policy applied
+- USB access blocked
+- Correct wallpaper per OU
+
+<details>
+<summary>Click to view Steps Results✅</summary>
+
+  <p align="center"><strong>USB access policy screen.</strong></p>
+
+  <p align="center">
+    <img src="https://i.imgur.com/k2kPkgv.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
