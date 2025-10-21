@@ -159,7 +159,7 @@ gpresult /r
 ```
 
 ✅ Confirm:
-- Password policy applied
+
 - USB access blocked
 - Correct wallpaper per OU
 
@@ -169,5 +169,18 @@ gpresult /r
   <p align="center"><strong>USB access policy screen.</strong></p>
 
   <p align="center">
-    <img src="https://i.imgur.com/k2kPkgv.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+    <img src="https://i.imgur.com/MAC0pvR.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
   </p>
+</details>
+
+---
+
+### Closing Notes
+
+This lab demonstrated how Group Policy Objects (GPOs) allow administrators to enforce enterprise-wide configurations from a centralized management point within Active Directory.
+
+###  ✅ What I Achieved
+- Created and applied GPOs to enforce:
+- 🚫 USB device restrictions
+- 🖼️ Department-based desktop wallpapers
+- 🔒 Password complexity rules (domain-level enforcement
