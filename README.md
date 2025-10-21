@@ -166,7 +166,7 @@ gpresult /r
 <details>
 <summary>Click to view Steps Results✅</summary>
 
-  <p align="center"><strong>USB access policy screen.</strong></p>
+  <p align="center"><strong> Updated Policies Results.</strong></p>
 
   <p align="center">
     <img src="https://i.imgur.com/MAC0pvR.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
