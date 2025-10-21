@@ -89,6 +89,10 @@ Computer Configuration → Policies → Windows Settings → Security Settings �
     <img src="https://i.imgur.com/VQK9zWg.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
   </p>
 
+  <p align="center">
+    <img src="https://i.imgur.com/q9VS8nd.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
+
 </details>
 
  
