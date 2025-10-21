@@ -171,6 +171,12 @@ gpresult /r
   <p align="center">
     <img src="https://i.imgur.com/MAC0pvR.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
   </p>
+    <p align="center"><strong> Updated Wallpaper.</strong></p>
+
+  <p align="center">
+    <img src="https://i.imgur.com/TBzCkyk.png" height="60%" width="60%" alt="Password Policy Screenshot"/>
+  </p>
+ 
 </details>
 
 ---
